@@ -5,11 +5,11 @@
 FUNCTION Main()
 
    LOCAL cNome := "Gabriela"
-   LOCAL cCidade := "Sao Paulo - SP"
+   LOCAL cCidade := "São Paulo - SP"
    LOCAL cCurso := "Harbour/AdvPL"
 
    QOut("==============================")
-   QOut("FICHA DE APRESENTACAO")
+   QOut("FICHA DE APRESENTAÇÃO")
    QOut("==============================")
    QOut("Nome: " + cNome)
    QOut("Cidade: " + cCidade)
