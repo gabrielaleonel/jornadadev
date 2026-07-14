@@ -23,7 +23,8 @@ jornadadev/
 ├── modulo-01/
 │   ├── ex01-hello.prg
 │   ├── ex02-saudacao.prg
-│   └── ex03-apresentacao.prg
+│   ├── ex03-apresentacao.prg
+│   └── ex04-data-hora.prg
 ├── modulo-02/
 │   └── ex01-algoritmo-media.md
 ├── modulo-03/
