@@ -1,19 +1,15 @@
-// Apresentação
+// Apresentacao
 
-//Variáveis
-
-REQUEST HB_CODEPAGE_PTWIN
+//Variaveis
 
 FUNCTION Main()
 
-   Set( _SET_CODEPAGE, "PTWIN" )
-
    LOCAL cNome := "Gabriela"
-   LOCAL cCidade := "São Paulo - SP"
+   LOCAL cCidade := "Sao Paulo - SP"
    LOCAL cCurso := "Harbour/AdvPL"
 
    QOut("==============================")
-   QOut("FICHA DE APRESENTAÇÃO")
+   QOut("FICHA DE APRESENTACAO")
    QOut("==============================")
    QOut("Nome: " + cNome)
    QOut("Cidade: " + cCidade)
