@@ -1,19 +1,16 @@
-// Apresentacao
+function MAIN()
 
-//Variaveis
+    Local cNome:= "Gabriela"
+    Local cCidade:= "SÆo Paulo - SP"
+    Local cCurso:= "Harbour/ADVPL"
 
-FUNCTION Main()
+    hb_cdpSelect("PT850")
 
-   LOCAL cNome := "Gabriela"
-   LOCAL cCidade := "Sao Paulo - SP"
-   LOCAL cCurso := "Harbour/AdvPL"
-
-   QOut("==============================")
-   QOut("FICHA DE APRESENTACAO")
-   QOut("==============================")
-   QOut("Nome: " + cNome)
-   QOut("Cidade: " + cCidade)
-   QOut("Curso: " + cCurso)
-   QOut("==============================")
-
-RETURN NIL
+    QOut("=======================")
+    QOut(" Ficha de Apresenta‡Æo")
+    QOut("=======================")
+    QOut("Nome: " + cNome)
+    QOut("Cidade: " + cCidade)
+    QOut("Curso: " + cCurso)
+    QOut("=======================")
+Return NIL
