@@ -1,0 +1,28 @@
+# SX3 - Dicionario de Campos (Dados-e-Dicionario)
+# Exportado do Configurador (SIGACFG) - ambiente de desenvolvimento (990)
+# Colunas: X3_TABELA | X3_CAMPO | X3_TITULO | X3_TIPO | X3_TAMANHO | X3_DECIMAL | X3_CONTEXT (R=Real, V=Virtual) | X3_VALID | X3_RELACAO | X3_OBRIG (S/N)
+# X3_VALID = validacao de campo chamada na gravacao | X3_RELACAO = expressao do campo virtual
+X3_TABELA,X3_CAMPO,X3_TITULO,X3_TIPO,X3_TAMANHO,X3_DECIMAL,X3_CONTEXT,X3_VALID,X3_RELACAO,X3_OBRIG
+ZZ1,ZZ1_FILIAL,Filial,C,2,0,R,,,S
+ZZ1,ZZ1_CODIGO,Codigo,C,6,0,R,,,
+ZZ1,ZZ1_FORNEC,"Cod. Fornecedor",C,6,0,R,U_VALZZ1FORNEC(),,
+ZZ1,ZZ1_LOJAFO,Loja Fornecedor,C,2,0,R,,,
+ZZ1,ZZ1_NOMEFO,Nome Fornecedor,C,40,0,V,,"POSICIONE(""SA2"",1,xFilial(""SA2"")+M->ZZ1_FORNEC+M->ZZ1_LOJAFO,""A2_NOME"")",
+ZZ1,ZZ1_CERTIF,Dados Certificado,C,256,0,R,,,
+ZZ1,ZZ1_VALCER,Val. Certificado,D,8,0,R,U_VALZZ1VALCER(),,
+ZZ1,ZZ1_TOLERA,"Tolerancia (%)",N,5,2,R,U_VALZZ1TOLERA(),,
+ZZ1,ZZ1_TOTOK,"Qtd. Conforme",N,12,2,R,,,
+ZZ1,ZZ1_TOTNOK,"Qtd. Nao Conforme",N,12,2,R,,,
+ZZ2,ZZ2_FILIAL,Filial,C,2,0,R,,,S
+ZZ2,ZZ2_CONFOR,"Controle (->ZZ1)",C,6,0,R,U_VALZZ2CONFOR(),,
+ZZ2,ZZ2_FORNEC,"Cod. Fornecedor",C,6,0,R,,,
+ZZ2,ZZ2_LOJAFO,Loja Fornecedor,C,2,0,R,,,
+ZZ2,ZZ2_NOMEFO,Nome Fornecedor,C,40,0,V,,"POSICIONE(""SA2"",1,xFilial(""SA2"")+M->ZZ2_FORNEC+M->ZZ2_LOJAFO,""A2_NOME"")",
+ZZ2,ZZ2_DATA,Data Ocorrencia,D,8,0,R,U_VALZZ2DATA(),,
+ZZ2,ZZ2_HORA,Hora,C,5,0,R,,,
+ZZ2,ZZ2_CODPRO,Produto,C,15,0,R,U_VALZZ2CODPRO(),,
+ZZ2,ZZ2_QTDOK,"Qtde. Conforme",N,12,0,R,,,
+ZZ2,ZZ2_QTDNOK,"Qtde. Nao Conforme",N,12,0,R,,,
+ZZ2,ZZ2_VLRUNI,Valor Unitario,N,12,2,R,,,
+ZZ2,ZZ2_TOTOK,"R$ Conforme",N,12,2,V,,"M->ZZ2_QTDOK * M->ZZ2_VLRUNI",
+ZZ2,ZZ2_TOTNOK,"R$ Nao Conforme",N,12,2,V,,"M->ZZ2_QTDNOK * M->ZZ2_VLRUNI",

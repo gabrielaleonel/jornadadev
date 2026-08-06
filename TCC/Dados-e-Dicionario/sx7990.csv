@@ -1,0 +1,11 @@
+# SX7 - Dicionario de Gatilhos (Dados-e-Dicionario)
+# Exportado do Configurador (SIGACFG) - ambiente de desenvolvimento (990)
+# Colunas: X7_TABELA | X7_ORDEM | X7_CAMPO (origem) | X7_CONTRA (destino) | X7_FASE | X7_TIPO | X7_EXPRESSAO (regra)
+# Fase 3 = formulario aberto (ex.: na inclusao/alteracao, antes da gravacao)
+X7_TABELA,X7_ORDEM,X7_CAMPO,X7_CONTRA,X7_FASE,X7_TIPO,X7_EXPRESSAO
+ZZ1,001,ZZ1_FORNEC,ZZ1_NOMEFO,3,T,"POSICIONE(""SA2"",1,xFilial(""SA2"")+M->ZZ1_FORNEC+M->ZZ1_LOJAFO,""A2_NOME"")"
+ZZ2,001,ZZ2_CONFOR,ZZ2_FORNEC,3,T,"POSICIONE(""ZZ1"",1,xFilial(""ZZ1"")+M->ZZ2_CONFOR,""ZZ1_FORNEC"")"
+ZZ2,002,ZZ2_CONFOR,ZZ2_LOJAFO,3,T,"POSICIONE(""ZZ1"",1,xFilial(""ZZ1"")+M->ZZ2_CONFOR,""ZZ1_LOJAFO"")"
+ZZ2,003,ZZ2_CONFOR,ZZ2_NOMEFO,3,T,"POSICIONE(""SA2"",1,xFilial(""SA2"")+M->ZZ2_FORNEC+M->ZZ2_LOJAFO,""A2_NOME"")"
+ZZ2,004,ZZ2_DATA,ZZ2_DATA,3,T,"IF(INCLUI, dDataBase, ZZ2->ZZ2_DATA)"
+ZZ2,005,ZZ2_HORA,ZZ2_HORA,3,T,"IF(INCLUI, Time(), ZZ2->ZZ2_HORA)"

@@ -1,0 +1,6 @@
+# sb1990.dbf (CSV) - Produtos de teste (tabela padrao SB1)
+# Colunas: B1_COD | B1_DESC | B1_UM | B1_TIPO | B1_LOCPAD
+B1_COD,B1_DESC,B1_UM,B1_TIPO,B1_LOCPAD
+000001,"Parafuso sextavado M8",PÇ,PA,001
+000002,"Chapa de aco 3mm",M2,MP,002
+000003,"Tinta epoxi 5L",CX,MP,003

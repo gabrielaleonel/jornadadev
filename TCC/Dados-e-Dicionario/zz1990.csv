@@ -1,0 +1,8 @@
+# zz1990.dbf (CSV) - Tabela ZZ1 (Controle de Fornecimento)
+# Colunas: ZZ1_FILIAL | ZZ1_CODIGO | ZZ1_FORNEC | ZZ1_LOJAFO | ZZ1_NOMEFO (virtual, nao gravado) | ZZ1_CERTIF | ZZ1_VALCER | ZZ1_TOLERA | ZZ1_TOTOK | ZZ1_TOTNOK
+# Datas no padrao do DBF (YYYYMMDD). Massa preparada para demonstrar as 3 legendas:
+#   000001 = certificado VENCIDO  (verm.) | 000002 = vence em ate 30 dias (amarelo) | 000003 = ok (verde)
+ZZ1_FILIAL,ZZ1_CODIGO,ZZ1_FORNEC,ZZ1_LOJAFO,ZZ1_NOMEFO,ZZ1_CERTIF,ZZ1_VALCER,ZZ1_TOLERA,ZZ1_TOTOK,ZZ1_TOTNOK
+01,000001,000001,01,"","Cert. ISO 9001 - Lote 001/2026",20260630,2.00,100.00,10.00
+01,000002,000002,01,"","Cert. ISO 9001 - Lote 002/2026",20260820,5.00,950.00,50.00
+01,000003,000003,01,"","Cert. ISO 9001 - Lote 003/2027",20270315,1.00,40.00,0.00

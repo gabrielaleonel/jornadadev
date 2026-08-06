@@ -1,0 +1,6 @@
+# sa2990.dbf (CSV) - Fornecedores de teste (tabela padrao SA2)
+# Colunas: A2_COD | A2_LOJA | A2_NOME | A2_EST | A2_CGC | A2_EMAIL
+A2_COD,A2_LOJA,A2_NOME,A2_EST,A2_CGC,A2_EMAIL
+000001,01,"Fornecedor Alfa Ltda",SP,"00.111.222/0001-33",alfa@teste.com.br
+000002,01,"Metalurgica Beta SA",MG,"11.222.333/0001-44",beta@teste.com.br
+000003,01,"Quimica Gama Ind. e Com.",RS,"22.333.444/0001-55",gama@teste.com.br

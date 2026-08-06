@@ -1,0 +1,6 @@
+# SX2 - Dicionario de Tabelas (Dados-e-Dicionario)
+# Exportado do Configurador (SIGACFG) - ambiente de desenvolvimento (990)
+# Colunas: X2_CHAVE | X2_DESCRIC | X2_ARQ (arquivo fisico .DBF) | X2_COMPART (Compartilhado = S) | X2_MODULO
+X2_CHAVE,X2_DESCRIC,X2_ARQ,X2_COMPART,X2_MODULO
+ZZ1,"Controle de Fornecimento (ISO 9001)",ZZ1990,S,COM
+ZZ2,"Ocorrencias do Fornecedor",ZZ2990,S,COM

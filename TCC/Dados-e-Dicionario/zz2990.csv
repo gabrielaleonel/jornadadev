@@ -1,0 +1,11 @@
+# zz2990.dbf (CSV) - Tabela ZZ2 (Ocorrencias do Fornecedor)
+# Colunas: ZZ2_FILIAL | ZZ2_CONFOR | ZZ2_FORNEC | ZZ2_LOJAFO | ZZ2_NOMEFO (virtual) | ZZ2_DATA | ZZ2_HORA | ZZ2_CODPRO | ZZ2_QTDOK | ZZ2_QTDNOK | ZZ2_VLRUNI | ZZ2_TOTOK (virtual) | ZZ2_TOTNOK (virtual)
+# Datas no padrao do DBF (YYYYMMDD). Massa preparada para demonstrar a legenda da ZZ2 (% NC vs tolerancia ZZ1_TOLERA):
+#   Confor 000001: % NC = 10/(100+10) = 9.09% > 2.00%  -> VERMELHO (acima da tolerancia)
+#   Confor 000002: % NC = 50/(950+50) = 5.00% = 5.00%  -> VERDE  (dentro da tolerancia, limite)
+#   Confor 000003: % NC = 0%                           -> VERDE  (sem nao conformidade)
+ZZ2_FILIAL,ZZ2_CONFOR,ZZ2_FORNEC,ZZ2_LOJAFO,ZZ2_NOMEFO,ZZ2_DATA,ZZ2_HORA,ZZ2_CODPRO,ZZ2_QTDOK,ZZ2_QTDNOK,ZZ2_VLRUNI,ZZ2_TOTOK,ZZ2_TOTNOK
+01,000001,000001,01,"",20260715,0815,000001,100,10,2.50,250.00,25.00
+01,000001,000001,01,"",20260716,1405,000002,200,20,8.00,1600.00,160.00
+01,000002,000002,01,"",20260801,0950,000002,950,50,8.00,7600.00,400.00
+01,000003,000003,01,"",20260728,1610,000003,40,0,120.00,4800.00,0.00

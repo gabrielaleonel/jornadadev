@@ -1,0 +1,10 @@
+# SIX - Dicionario de Indices (Dados-e-Dicionario)
+# Exportado do Configurador (SIGACFG) - ambiente de desenvolvimento (990)
+# Colunas: SIX_TABELA | SIX_ORDEM | SIX_CAMPO (expressao do indice) | SIX_DESCRIC
+SIX_TABELA,SIX_ORDEM,SIX_CAMPO,SIX_DESCRIC
+ZZ1,1,ZZ1_FILIAL + ZZ1_CODIGO,Chave primaria
+ZZ1,2,ZZ1_FILIAL + ZZ1_FORNEC + ZZ1_LOJAFO,Por fornecedor
+ZZ1,3,ZZ1_FILIAL + DTOS(ZZ1_VALCER),Por validade do certificado
+ZZ2,1,ZZ2_FILIAL + ZZ2_CONFOR + DTOS(ZZ2_DATA) + ZZ2_HORA,Chave primaria
+ZZ2,2,ZZ2_FILIAL + ZZ2_FORNEC + ZZ2_LOJAFO + DTOS(ZZ2_DATA),Por fornecedor e data
+ZZ2,3,ZZ2_FILIAL + DTOS(ZZ2_DATA),Por data

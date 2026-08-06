@@ -1,0 +1,12 @@
+# sigacom.xnu - Estrutura de menu do modulo de Compras (SIGACOM)
+# Exportado do Configurador (SIGACFG) > Menu do Sistema
+# Formato texto (sem ambiente, o .xnu e descrito abaixo):
+#
+# [Menu raiz] Compras (SIGACOM)
+#   [Pasta] Cadastros
+#     [Pasta] Controle ISO 9001
+#       [Funcao] Controle de Fornecimento (ZZ1) -> USER FUNCTION STTZZ1
+#       [Funcao] Ocorrencias de Fornecedores (ZZ2) -> USER FUNCTION STTZZ2
+
+Compras/Cadastros/Controle ISO 9001/Controle de Fornecimento (ZZ1),STTZZ1
+Compras/Cadastros/Controle ISO 9001/Ocorrencias de Fornecedores (ZZ2),STTZZ2

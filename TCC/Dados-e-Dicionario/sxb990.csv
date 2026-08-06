@@ -1,0 +1,7 @@
+# SXB - Dicionario de Consultas Padrao (Dados-e-Dicionario)
+# Exportado do Configurador (SIGACFG) - ambiente de desenvolvimento (990)
+# Colunas: XB_COD | XB_DESCRIC | XB_TABELA | XB_CAMPOS (campos exibidos/retornados) | XB_WHERE
+XB_COD,XB_DESCRIC,XB_TABELA,XB_CAMPOS,XB_WHERE
+ZZ1,"Busca de Controle de Fornecimento (ZZ1)",ZZ1,"ZZ1_CODIGO, ZZ1_NOMEFO, ZZ1_VALCER",
+SA2,"Busca de Fornecedor (SA2)",SA2,"A2_COD, A2_LOJA, A2_NOME",
+SB1,"Busca de Produto (SB1)",SB1,"B1_COD, B1_DESC, B1_UM",
