@@ -28,9 +28,12 @@ Para isso foram criadas duas tabelas customizadas (`Z` = personalização de cli
 ```
 TCC/
 ├── README.md                       ← este documento
+├── README.pdf                      ← modelo de entrega da atividade (validação por IA)
+├── rubrica-validacao.pdf           ← rubrica de avaliação (Rev. 1.0)
 ├── AUTOAVALIACAO.md                ← autoavaliação contra a rubrica
-├── converte-dicionario.prg         ← exporta o dicionário/DBFs para CSV
 ├── Dados-e-Dicionario/
+│   ├── converte-dicionario.prg     ← exporta o dicionário/DBFs para CSV
+│   ├── converte-dicionario.pdf     ← versão em PDF do utilitário de exportação
 │   ├── sx2990.csv                  ← SX2 — tabelas (ZZ1, ZZ2 — Compartilhadas)
 │   ├── sx3990.csv                  ← SX3 — campos (tipos, tamanhos, virtuais, X3_VALID)
 │   ├── six990.csv                  ← SIX — índices (3 + 3)
@@ -318,8 +321,8 @@ tree TCC
 
 ## 15. Referências
 
-- Enunciado completo: `TCC/tcc.pdf` (Rev. 2.0)
-- Rubrica de avaliação: `TCC/rubrica-validacao.pdf` (Rev. 1.0)
+- Modelo de entrega (validação automática por IA): `README.pdf`
+- Rubrica de avaliação: `rubrica-validacao.pdf` (Rev. 1.0)
 - Autoavaliação: `AUTOAVALIACAO.md`
 
 > "Programar é como montar um quebra-cabeça: cada exercício é uma peça que encaixa no grande mapa da lógica." 🧩
